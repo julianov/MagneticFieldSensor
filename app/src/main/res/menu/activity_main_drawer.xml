@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timeDomain"
+            android:icon="@drawable/ic_time_domain"
+            android:title="Time Domain" />
+        <item
+            android:id="@+id/nav_frecuencyDomain"
+            android:icon="@drawable/ic_frecuency_domain"
+            android:title="Frecuency Domain" />
+        <item
+            android:id="@+id/nav_Direction"
+            android:icon="@drawable/ic_sentido"
+            android:title="Direction" />
+        <item
+            android:id="@+id/nav_howto"
+            android:icon="@drawable/ic_howto"
+            android:title="How to" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_calify"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate the app" />
+        </menu>
+    </item>
+
+</menu>

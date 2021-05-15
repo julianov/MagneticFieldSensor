@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_four">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:fontFamily="monospace"
+        android:text="Time domain measures the variation of the magnetic field module as a function of time. The instantaneous peak value and the maximum measured value are recorded."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="171dp"
+        android:fontFamily="monospace"
+        android:text="Frequency domain measures the frequency spectrum of the measured magnetic field."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="monospace"
+        android:text='You can also see the direction of the magnetic field and its variation in the "Direction" section. These directions are also shown in the Time domain section.'
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/howtodoit" />
+</RelativeLayout>
